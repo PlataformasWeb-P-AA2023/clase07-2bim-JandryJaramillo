@@ -4,7 +4,7 @@
             <div class="card mb-3" v-for="estudiante of estudiantes" v-bind:key="estudiante.id">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <div class="card-body">
+                        <div style="background-color: cadetblue;" class="card-body">
                             <h5 class="card-title">Nombre: {{ estudiante.nombre }}</h5>
                             <h5 class="card-text">Apellido: {{ estudiante.apellido }}</h5>
                             <br>
